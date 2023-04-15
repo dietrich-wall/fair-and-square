@@ -1,0 +1,34 @@
+{
+  "name": "fair-and-square",
+  "version": "1.0.0",
+  "description": "Make splitting travel expenses a breeze",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dietrich-wall/fair-and-square.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "reactjs"
+  ],
+  "author": "dietrich-wall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dietrich-wall/fair-and-square/issues"
+  },
+  "homepage": "https://github.com/dietrich-wall/fair-and-square#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  }
+}
